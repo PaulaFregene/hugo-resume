@@ -7,6 +7,10 @@
                   <h3 class="mb-0">{{ .school | markdownify }}</h3>
                   <div class="subheading mb-3">{{ .degree }}</div>
                   <div>{{ .major | markdownify }}</div>
+                  <div>{{ .minor | markdownify }}</div>
+                  <p>{{ .deans | markdownify }}
+                  <p>{{ .gpa | markdownify }}
+                  <p>{{ .clubs | markdownify }}
                   <p>{{ .notes | markdownify }}
                 </div>
                 <div class="resume-date text-md-right">
